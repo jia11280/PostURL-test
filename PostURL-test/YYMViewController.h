@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYMViewController.h
 //  PostURL-test
 //
 //  Created by coolyym on 2016/10/17.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "PCReaderViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface YYMViewController : PCReaderViewController
 
 @end
-

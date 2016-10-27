@@ -7,16 +7,38 @@
 //
 
 #import "ViewController.h"
+#import "YYMViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)buttonCLick:(id)sender {
+    
+    NSStringEncoding strEncode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+    
+    NSString *downloadedTxt = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"mdjyml.txt" ofType:nil] encoding:strEncode error:nil];
+    
+    YYMViewController * yym = [[YYMViewController alloc]init];
+    
+    
+    
+    [yym loadText:downloadedTxt];
+    
+    
+    
+    [self presentViewController:yym animated:YES completion:nil];
+
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+ 
+       // Do any additional setup after loading the view, typically from a nib.
 }
 
 

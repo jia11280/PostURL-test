@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5CC43A1DB4A12E00589CCA /* mdjyml.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC5CC4391DB4A12E00589CCA /* mdjyml.txt */; };
+		CC5CC43D1DB4A21000589CCA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC43C1DB4A21000589CCA /* QuartzCore.framework */; };
+		CC5CC43F1DB4A21800589CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC43E1DB4A21800589CCA /* CoreGraphics.framework */; };
+		CC5CC4411DB4A22100589CCA /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC4401DB4A22100589CCA /* libz.1.2.5.tbd */; };
+		CC5CC4431DB4A22A00589CCA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC4421DB4A22A00589CCA /* MobileCoreServices.framework */; };
+		CC5CC4451DB4A23000589CCA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC4441DB4A23000589CCA /* SystemConfiguration.framework */; };
+		CC5CC4471DB4A23900589CCA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5CC4461DB4A23900589CCA /* libsqlite3.0.tbd */; };
+		CC5CC44A1DB4A2F300589CCA /* YYMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5CC4491DB4A2F300589CCA /* YYMViewController.m */; };
 		CC63AB501DB4713100C90E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB4F1DB4713100C90E65 /* main.m */; };
 		CC63AB531DB4713100C90E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB521DB4713100C90E65 /* AppDelegate.m */; };
 		CC63AB561DB4713100C90E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB551DB4713100C90E65 /* ViewController.m */; };
@@ -15,6 +23,15 @@
 		CC63AB5E1DB4713100C90E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC63AB5C1DB4713100C90E65 /* LaunchScreen.storyboard */; };
 		CC63AB691DB4713200C90E65 /* PostURL_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB681DB4713200C90E65 /* PostURL_testTests.m */; };
 		CC63AB741DB4713200C90E65 /* PostURL_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB731DB4713200C90E65 /* PostURL_testUITests.m */; };
+		CC63AB941DB4A0BE00C90E65 /* NSString+PCPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB831DB4A0BE00C90E65 /* NSString+PCPaging.m */; };
+		CC63AB951DB4A0BE00C90E65 /* PCCollectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB851DB4A0BE00C90E65 /* PCCollectViewModel.m */; };
+		CC63AB961DB4A0BE00C90E65 /* PCDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB871DB4A0BE00C90E65 /* PCDataViewController.m */; };
+		CC63AB971DB4A0BE00C90E65 /* PCGlobalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB891DB4A0BE00C90E65 /* PCGlobalModel.m */; };
+		CC63AB981DB4A0BE00C90E65 /* PCModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB8B1DB4A0BE00C90E65 /* PCModelViewController.m */; };
+		CC63AB991DB4A0BE00C90E65 /* PCPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB8D1DB4A0BE00C90E65 /* PCPageCell.m */; };
+		CC63AB9A1DB4A0BE00C90E65 /* PCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB8F1DB4A0BE00C90E65 /* PCPageView.m */; };
+		CC63AB9B1DB4A0BE00C90E65 /* PCReaderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB911DB4A0BE00C90E65 /* PCReaderTool.m */; };
+		CC63AB9C1DB4A0BE00C90E65 /* PCReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC63AB931DB4A0BE00C90E65 /* PCReaderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5CC4391DB4A12E00589CCA /* mdjyml.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mdjyml.txt; sourceTree = "<group>"; };
+		CC5CC43C1DB4A21000589CCA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC5CC43E1DB4A21800589CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC5CC4401DB4A22100589CCA /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		CC5CC4421DB4A22A00589CCA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CC5CC4441DB4A23000589CCA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC5CC4461DB4A23900589CCA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CC5CC4481DB4A2F300589CCA /* YYMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMViewController.h; sourceTree = "<group>"; };
+		CC5CC4491DB4A2F300589CCA /* YYMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMViewController.m; sourceTree = "<group>"; };
 		CC63AB4B1DB4713100C90E65 /* PostURL-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PostURL-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC63AB4F1DB4713100C90E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC63AB511DB4713100C90E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,24 @@
 		CC63AB6F1DB4713200C90E65 /* PostURL-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PostURL-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC63AB731DB4713200C90E65 /* PostURL_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostURL_testUITests.m; sourceTree = "<group>"; };
 		CC63AB751DB4713200C90E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC63AB821DB4A0BE00C90E65 /* NSString+PCPaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PCPaging.h"; sourceTree = "<group>"; };
+		CC63AB831DB4A0BE00C90E65 /* NSString+PCPaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PCPaging.m"; sourceTree = "<group>"; };
+		CC63AB841DB4A0BE00C90E65 /* PCCollectViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCollectViewModel.h; sourceTree = "<group>"; };
+		CC63AB851DB4A0BE00C90E65 /* PCCollectViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCollectViewModel.m; sourceTree = "<group>"; };
+		CC63AB861DB4A0BE00C90E65 /* PCDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCDataViewController.h; sourceTree = "<group>"; };
+		CC63AB871DB4A0BE00C90E65 /* PCDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCDataViewController.m; sourceTree = "<group>"; };
+		CC63AB881DB4A0BE00C90E65 /* PCGlobalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCGlobalModel.h; sourceTree = "<group>"; };
+		CC63AB891DB4A0BE00C90E65 /* PCGlobalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCGlobalModel.m; sourceTree = "<group>"; };
+		CC63AB8A1DB4A0BE00C90E65 /* PCModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCModelViewController.h; sourceTree = "<group>"; };
+		CC63AB8B1DB4A0BE00C90E65 /* PCModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCModelViewController.m; sourceTree = "<group>"; };
+		CC63AB8C1DB4A0BE00C90E65 /* PCPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageCell.h; sourceTree = "<group>"; };
+		CC63AB8D1DB4A0BE00C90E65 /* PCPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageCell.m; sourceTree = "<group>"; };
+		CC63AB8E1DB4A0BE00C90E65 /* PCPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPageView.h; sourceTree = "<group>"; };
+		CC63AB8F1DB4A0BE00C90E65 /* PCPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPageView.m; sourceTree = "<group>"; };
+		CC63AB901DB4A0BE00C90E65 /* PCReaderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCReaderTool.h; sourceTree = "<group>"; };
+		CC63AB911DB4A0BE00C90E65 /* PCReaderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCReaderTool.m; sourceTree = "<group>"; };
+		CC63AB921DB4A0BE00C90E65 /* PCReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCReaderViewController.h; sourceTree = "<group>"; };
+		CC63AB931DB4A0BE00C90E65 /* PCReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCReaderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5CC4471DB4A23900589CCA /* libsqlite3.0.tbd in Frameworks */,
+				CC5CC4451DB4A23000589CCA /* SystemConfiguration.framework in Frameworks */,
+				CC5CC4431DB4A22A00589CCA /* MobileCoreServices.framework in Frameworks */,
+				CC5CC4411DB4A22100589CCA /* libz.1.2.5.tbd in Frameworks */,
+				CC5CC43F1DB4A21800589CCA /* CoreGraphics.framework in Frameworks */,
+				CC5CC43D1DB4A21000589CCA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5CC43B1DB4A20F00589CCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5CC4461DB4A23900589CCA /* libsqlite3.0.tbd */,
+				CC5CC4441DB4A23000589CCA /* SystemConfiguration.framework */,
+				CC5CC4421DB4A22A00589CCA /* MobileCoreServices.framework */,
+				CC5CC4401DB4A22100589CCA /* libz.1.2.5.tbd */,
+				CC5CC43E1DB4A21800589CCA /* CoreGraphics.framework */,
+				CC5CC43C1DB4A21000589CCA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC63AB421DB4713100C90E65 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,7 @@
 				CC63AB671DB4713200C90E65 /* PostURL-testTests */,
 				CC63AB721DB4713200C90E65 /* PostURL-testUITests */,
 				CC63AB4C1DB4713100C90E65 /* Products */,
+				CC5CC43B1DB4A20F00589CCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +165,17 @@
 		CC63AB4D1DB4713100C90E65 /* PostURL-test */ = {
 			isa = PBXGroup;
 			children = (
+				CC63AB811DB4A0BE00C90E65 /* reader的副本 */,
 				CC63AB511DB4713100C90E65 /* AppDelegate.h */,
 				CC63AB521DB4713100C90E65 /* AppDelegate.m */,
 				CC63AB541DB4713100C90E65 /* ViewController.h */,
 				CC63AB551DB4713100C90E65 /* ViewController.m */,
+				CC5CC4481DB4A2F300589CCA /* YYMViewController.h */,
+				CC5CC4491DB4A2F300589CCA /* YYMViewController.m */,
 				CC63AB571DB4713100C90E65 /* Main.storyboard */,
 				CC63AB5A1DB4713100C90E65 /* Assets.xcassets */,
 				CC63AB5C1DB4713100C90E65 /* LaunchScreen.storyboard */,
+				CC5CC4391DB4A12E00589CCA /* mdjyml.txt */,
 				CC63AB5F1DB4713100C90E65 /* Info.plist */,
 				CC63AB4E1DB4713100C90E65 /* Supporting Files */,
 			);
@@ -138,6 +206,31 @@
 				CC63AB751DB4713200C90E65 /* Info.plist */,
 			);
 			path = "PostURL-testUITests";
+			sourceTree = "<group>";
+		};
+		CC63AB811DB4A0BE00C90E65 /* reader的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				CC63AB821DB4A0BE00C90E65 /* NSString+PCPaging.h */,
+				CC63AB831DB4A0BE00C90E65 /* NSString+PCPaging.m */,
+				CC63AB841DB4A0BE00C90E65 /* PCCollectViewModel.h */,
+				CC63AB851DB4A0BE00C90E65 /* PCCollectViewModel.m */,
+				CC63AB861DB4A0BE00C90E65 /* PCDataViewController.h */,
+				CC63AB871DB4A0BE00C90E65 /* PCDataViewController.m */,
+				CC63AB881DB4A0BE00C90E65 /* PCGlobalModel.h */,
+				CC63AB891DB4A0BE00C90E65 /* PCGlobalModel.m */,
+				CC63AB8A1DB4A0BE00C90E65 /* PCModelViewController.h */,
+				CC63AB8B1DB4A0BE00C90E65 /* PCModelViewController.m */,
+				CC63AB8C1DB4A0BE00C90E65 /* PCPageCell.h */,
+				CC63AB8D1DB4A0BE00C90E65 /* PCPageCell.m */,
+				CC63AB8E1DB4A0BE00C90E65 /* PCPageView.h */,
+				CC63AB8F1DB4A0BE00C90E65 /* PCPageView.m */,
+				CC63AB901DB4A0BE00C90E65 /* PCReaderTool.h */,
+				CC63AB911DB4A0BE00C90E65 /* PCReaderTool.m */,
+				CC63AB921DB4A0BE00C90E65 /* PCReaderViewController.h */,
+				CC63AB931DB4A0BE00C90E65 /* PCReaderViewController.m */,
+			);
+			path = "reader的副本";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC63AB5E1DB4713100C90E65 /* LaunchScreen.storyboard in Resources */,
+				CC5CC43A1DB4A12E00589CCA /* mdjyml.txt in Resources */,
 				CC63AB5B1DB4713100C90E65 /* Assets.xcassets in Resources */,
 				CC63AB591DB4713100C90E65 /* Main.storyboard in Resources */,
 			);
@@ -276,8 +370,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC63AB951DB4A0BE00C90E65 /* PCCollectViewModel.m in Sources */,
 				CC63AB561DB4713100C90E65 /* ViewController.m in Sources */,
 				CC63AB531DB4713100C90E65 /* AppDelegate.m in Sources */,
+				CC63AB961DB4A0BE00C90E65 /* PCDataViewController.m in Sources */,
+				CC63AB971DB4A0BE00C90E65 /* PCGlobalModel.m in Sources */,
+				CC5CC44A1DB4A2F300589CCA /* YYMViewController.m in Sources */,
+				CC63AB991DB4A0BE00C90E65 /* PCPageCell.m in Sources */,
+				CC63AB981DB4A0BE00C90E65 /* PCModelViewController.m in Sources */,
+				CC63AB941DB4A0BE00C90E65 /* NSString+PCPaging.m in Sources */,
+				CC63AB9C1DB4A0BE00C90E65 /* PCReaderViewController.m in Sources */,
+				CC63AB9A1DB4A0BE00C90E65 /* PCPageView.m in Sources */,
+				CC63AB9B1DB4A0BE00C90E65 /* PCReaderTool.m in Sources */,
 				CC63AB501DB4713100C90E65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +618,7 @@
 				CC63AB7A1DB4713200C90E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC63AB7B1DB4713200C90E65 /* Build configuration list for PBXNativeTarget "PostURL-testTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +627,7 @@
 				CC63AB7D1DB4713200C90E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC63AB7E1DB4713200C90E65 /* Build configuration list for PBXNativeTarget "PostURL-testUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +636,7 @@
 				CC63AB801DB4713200C90E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
